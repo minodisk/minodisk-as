@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3079/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters
+END
+IUpdater.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/IUpdater.as
+END
+PhysicalUpdaterLadder.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/PhysicalUpdaterLadder.as
+END
+UpdaterLadder.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/UpdaterLadder.as
+END
+PhysicalUpdater.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/PhysicalUpdater.as
+END
+CompositePhysicalUpdater.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/CompositePhysicalUpdater.as
+END
+BezierUpdater.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3079/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/BezierUpdater.as
+END
+CompositeUpdater.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/CompositeUpdater.as
+END
+AbstractUpdater.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/AbstractUpdater.as
+END
+IPhysicalUpdater.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/IPhysicalUpdater.as
+END
+ObjectUpdater.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/ObjectUpdater.as
+END
+UpdaterFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/updaters/UpdaterFactory.as
+END

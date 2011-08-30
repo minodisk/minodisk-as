@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3080/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens
+END
+PhysicalTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/PhysicalTween.as
+END
+IIPhysicalTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/IIPhysicalTween.as
+END
+IITweenGroup.as
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/IITweenGroup.as
+END
+IIActionTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/IIActionTween.as
+END
+AbstractActionTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/AbstractActionTween.as
+END
+IITween.as
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/IITween.as
+END
+TweenDecorator.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/TweenDecorator.as
+END
+AbstractTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3080/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/AbstractTween.as
+END
+ObjectTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/ObjectTween.as
+END
+IIObjectTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/IIObjectTween.as
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/decorators
+END
+ScaledTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/decorators/ScaledTween.as
+END
+ReversedTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/decorators/ReversedTween.as
+END
+SlicedTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/decorators/SlicedTween.as
+END
+DelayedTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/decorators/DelayedTween.as
+END
+RepeatedTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/tweens/decorators/RepeatedTween.as
+END

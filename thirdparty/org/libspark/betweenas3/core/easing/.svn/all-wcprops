@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing
+END
+BackEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/BackEaseOutIn.as
+END
+IEasing.as
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/IEasing.as
+END
+CircularEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/CircularEaseOutIn.as
+END
+PhysicalExponential.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/PhysicalExponential.as
+END
+BackEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/BackEaseIn.as
+END
+QuarticEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuarticEaseOutIn.as
+END
+BackEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/BackEaseOut.as
+END
+BounceEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/BounceEaseOutIn.as
+END
+CircularEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/CircularEaseIn.as
+END
+QuinticEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuinticEaseOutIn.as
+END
+CircularEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/CircularEaseOut.as
+END
+QuadraticEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuadraticEaseInOut.as
+END
+QuarticEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuarticEaseIn.as
+END
+QuarticEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuarticEaseOut.as
+END
+ElasticEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/ElasticEaseInOut.as
+END
+BounceEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/BounceEaseOut.as
+END
+QuinticEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuinticEaseIn.as
+END
+QuinticEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuinticEaseOut.as
+END
+CubicEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/CubicEaseOutIn.as
+END
+QuadraticEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuadraticEaseIn.as
+END
+ExponentialEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/ExponentialEaseOutIn.as
+END
+SineEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/SineEaseOutIn.as
+END
+CubicEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/CubicEaseOut.as
+END
+ExponentialEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/ExponentialEaseIn.as
+END
+ExponentialEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/ExponentialEaseOut.as
+END
+PhysicalUniform.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/PhysicalUniform.as
+END
+BackEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/BackEaseInOut.as
+END
+CircularEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/CircularEaseInOut.as
+END
+SineEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/SineEaseIn.as
+END
+SineEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/SineEaseOut.as
+END
+QuarticEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuarticEaseInOut.as
+END
+PhysicalAccelerate.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/PhysicalAccelerate.as
+END
+BounceEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/BounceEaseInOut.as
+END
+QuinticEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuinticEaseInOut.as
+END
+QuadraticEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuadraticEaseOutIn.as
+END
+EaseNone.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/EaseNone.as
+END
+BounceEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/BounceEaseIn.as
+END
+ElasticEaseOutIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/ElasticEaseOutIn.as
+END
+CubicEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/CubicEaseInOut.as
+END
+ExponentialEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/ExponentialEaseInOut.as
+END
+QuadraticEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/QuadraticEaseOut.as
+END
+CustomFunctionEasing.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/CustomFunctionEasing.as
+END
+ElasticEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/ElasticEaseIn.as
+END
+ElasticEaseOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/ElasticEaseOut.as
+END
+CubicEaseIn.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/CubicEaseIn.as
+END
+SineEaseInOut.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/SineEaseInOut.as
+END
+IPhysicalEasing.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3019/as3/BetweenAS3/trunk/src/fp10/org/libspark/betweenas3/core/easing/IPhysicalEasing.as
+END
