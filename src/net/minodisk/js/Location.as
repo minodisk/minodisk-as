@@ -1,20 +1,7 @@
-package net.minodisk.js 
-{
+package net.minodisk.js {
 	import flash.external.ExternalInterface;
 	
-	/**
-	 * @langversion ActionScript 3.0
-	 * @playerversion Flash 10.0
-	 * 
-	 * @author dsk
-	 * @since 2009/12/14
-	 */
-	public class Location
-	{
-		
-		//--------------------------------------
-		// CLASS CONSTANTS
-		//--------------------------------------
+	public class Location {
 		
 		public static const JS_LOCATION:String = <![CDATA[
 			function () {
@@ -31,11 +18,6 @@ package net.minodisk.js
 			}
 		]]>.toString().replace(/[\r\n\t]/g, '');
 		
-		
-		//--------------------------------------
-		// PRIVATE VARIABLES
-		//--------------------------------------
-		
 		private var _href:String;
 		private var _protocol:String;
 		private var _host:String;
@@ -46,19 +28,11 @@ package net.minodisk.js
 		private var _hash:String;
 		
 		
-		//--------------------------------------
-		// GETTER/SETTERS
-		//--------------------------------------
-		
 		public static function get available():Boolean { return ExternalInterface.available; }
 		
 		public function get href():String { return _href; }
-		public function set href(value:String):void 
-		{
+		public function set href(value:String):void {
 			_href = value;
-			if (ExternalInterface.available) {
-				ExternalInterface.call("location.href = " + _href);
-			}
 		}
 		
 		public function get protocol():String { return _protocol; }
@@ -75,13 +49,7 @@ package net.minodisk.js
 		
 		public function get hash():String { return _hash; }
 		
-		
-		//--------------------------------------
-		// CONSTRUCTOR
-		//--------------------------------------
-		
-		public function Location() 
-		{
+		public function Location() {
 			if (ExternalInterface.available) {
 				var location:Object = ExternalInterface.call(JS_LOCATION);
 				_href = location.href;
@@ -95,27 +63,19 @@ package net.minodisk.js
 			}
 		}
 		
-		
-		//--------------------------------------
-		// PUBLIC METHODS
-		//--------------------------------------
-		
-		public function replace(url:String):void 
-		{
+		public function replace(url:String):void {
 			if (ExternalInterface.available) {
 				ExternalInterface.call("location.replace", url);
 			}
 		}
 		
-		public function reload(noCache:Boolean = false):void 
-		{
+		public function reload(noCache:Boolean = false):void {
 			if (ExternalInterface.available) {
 				ExternalInterface.call("location.reload", noCache);
 			}
 		}
 		
-		public function toString():String 
-		{
+		public function toString():String {
 			return '[Location ' + 
 			        'href=' + href + ', ' + 
 					'protocol=' + protocol + ', ' + 
@@ -126,23 +86,5 @@ package net.minodisk.js
 					'search=' + search + ', ' + 
 					'hash=' + hash + ']';
 		}
-		
-		
-		//--------------------------------------
-		// PRIVATE METHODS
-		//--------------------------------------
-		
-		
 	}
-	
-	
 }
-
-
-
-
-
-
-
-
-

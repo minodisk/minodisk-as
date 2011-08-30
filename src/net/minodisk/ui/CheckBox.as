@@ -1,40 +1,13 @@
-package net.minodisk.ui 
-{
-	import flash.display.MovieClip;
+package net.minodisk.ui {
+  import flash.display.MovieClip;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	
-	/**
-	 * @langversion ActionScript 3.0
-	 * @playerversion 9.0
-	 * @author dsk
-	 * @since 2010/11/09
-	 */
-	public class CheckBox extends Button
-	{
-		
-		//--------------------------------------
-		// CLASS CONSTANTS
-		//--------------------------------------
-		
-		
-		//--------------------------------------
-		// PUBLIC VARIABLES
-		//--------------------------------------
+	public class CheckBox extends SimpleButton {
 		
 		public var check:MovieClip;
 		
-		
-		//--------------------------------------
-		// PRIVATE VARIABLES
-		//--------------------------------------
-		
 		private var _selected:Boolean;
-		
-		
-		//--------------------------------------
-		// GETTER/SETTERS
-		//--------------------------------------
 		
 		public function get selected():Boolean { return _selected; }
 		
@@ -44,11 +17,6 @@ package net.minodisk.ui
 			
 			check.visible = _selected;
 		}
-		
-		
-		//--------------------------------------
-		// CONSTRUCTOR
-		//--------------------------------------
 		
 		public function CheckBox() 
 		{
@@ -60,11 +28,6 @@ package net.minodisk.ui
 			addEventListener(MouseEvent.CLICK, _onClick);
 		}
 		
-		
-		//--------------------------------------
-		// PUBLIC METHODS
-		//--------------------------------------
-		
 		private function _onClick(e:MouseEvent):void 
 		{
 			selected = !selected;
@@ -75,13 +38,5 @@ package net.minodisk.ui
 			}
 		}
 		
-		
-		//--------------------------------------
-		// PRIVATE METHODS
-		//--------------------------------------
-		
-		
 	}
-	
-	
 }

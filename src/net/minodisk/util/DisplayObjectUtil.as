@@ -1,66 +1,54 @@
 package net.minodisk.util {
+  import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
+  import flash.geom.Rectangle;
 	
-	/**
-	 * @langversion ActionScript 3.0
-	 * @playerversion 9.0
-	 * @author dsk
-	 * @since 2011/03/22
-	 */
 	public class DisplayObjectUtil {
 		
-		//--------------------------------------
-		// CLASS CONSTANTS
-		//--------------------------------------
-		
-		
-		//--------------------------------------
-		// PRIVATE VARIABLES
-		//--------------------------------------
-		
-		
-		//--------------------------------------
-		// GETTER/SETTERS
-		//--------------------------------------
-		
-		
-		//--------------------------------------
-		// PUBLIC METHODS
-		//--------------------------------------
-		
-		public static function removeChildren(context:DisplayObjectContainer, ...children:Array):void {
-			var i:int, len:int;
-			
-			for (i = 0, len = children.length; i < len; i++) {
-				context.removeChild(children[i]);
-			}
+		static public function removeChildren(context:DisplayObjectContainer, ...children:Array):void {
+			var i:int;
+      if (children.length) {
+        i = children.length;
+        while (i--) {
+          context.removeChild(children[i]);
+        }
+      } else {
+        i = context.numChildren;
+        while (i--) {
+          context.removeChildAt(0);
+        }
+      }
 		}
 		
-		public static function removeAllChildren(context:DisplayObjectContainer):void {
-			
-			while (context.numChildren) {
-				context.removeChildAt(0);
-			}
-		}
-		
-		public static function getChildren(context:DisplayObjectContainer):Array {
-			var children:Array, i:int, len:int;
-			
-			children = [];
-			for (i = 0, len = context.numChildren; i < len; i++) {
-				children[i] = context.getChildAt(i);
-			}
-			
+		static public function getChildren(context:DisplayObjectContainer):Array {
+			var children:Array = [];
+      var i:int = context.numChildren;
+      while (i--) {
+        children[i] = context.getChildAt(i);
+      }
 			return children;
 		}
-		
-		
-		//--------------------------------------
-		// PRIVATE METHODS
-		//--------------------------------------
-		
+    
+    static public function containedIn(target:DisplayObject, rect:Rectangle):void {
+      if (target.x < rect.left) {
+        target.x = rect.left;
+      }
+      if (target.y < rect.top) {
+        target.y = rect.top;
+      }
+      if (target.x > rect.right) {
+        target.x = rect.right;
+      }
+      if (target.y > rect.bottom) {
+        target.y = rect.bottom;
+      }
+    }
+    
+    static public function removeFromParent(child:DisplayObject):void {
+      if (child.parent && child.parent is DisplayObjectContainer) {
+        (child.parent as DisplayObjectContainer).removeChild(child);
+      }
+    }
 		
 	}
-	
-	
 }

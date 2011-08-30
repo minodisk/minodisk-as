@@ -11,7 +11,7 @@ package net.minodisk.ui {
 	 * @author dsk
 	 * @since 2011/04/03
 	 */
-	public class ScrollPane extends Sprite {
+	public class ScrollPane extends Component {
 		
 		//--------------------------------------
 		// CLASS CONSTANTS
