@@ -26,7 +26,7 @@ package net.minodisk.js {
 		private var _pathname:String;
 		private var _search:String;
 		private var _hash:String;
-		
+		private var _query:Object;
 		
 		public static function get available():Boolean { return ExternalInterface.available; }
 		
@@ -48,6 +48,8 @@ package net.minodisk.js {
 		public function get search():String { return _search; }
 		
 		public function get hash():String { return _hash; }
+    
+    public function get query():Object { return _query; }
 		
 		public function Location() {
 			if (ExternalInterface.available) {
@@ -60,6 +62,12 @@ package net.minodisk.js {
 				_pathname = location.pathname;
 				_search = location.search;
 				_hash = location.hash;
+        _query = { };
+        var tmp:Array = _search.replace('?', '').split('&');
+        for (var i:int = 0, len:int = tmp.length; i < len; ++i) {
+          tmp[i] = tmp[i].split('=');
+          _query[tmp[i][0]] = tmp[i][1];
+        }
 			}
 		}
 		

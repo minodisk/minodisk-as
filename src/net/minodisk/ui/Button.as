@@ -10,7 +10,7 @@ package net.minodisk.ui {
   [Event(name='select', type='flash.events.Event')]
   [Event(name='press', type='net.minodisk.events.ButtonEvent')]
   
-	public class Button extends Component {
+	dynamic public class Button extends Component {
 		
 		static protected const OUT:String = 'out';
 		static protected const OVER:String = 'over';
@@ -204,7 +204,9 @@ package net.minodisk.ui {
     
     protected function _updateTo(newStatus:String):void {
       if (_buttons[newStatus]) {
-				_buttons[_status].visible = false;
+        if (_buttons[_status]) {
+				  _buttons[_status].visible = false;
+        }
 				_buttons[newStatus].visible = true;
 			}
     }

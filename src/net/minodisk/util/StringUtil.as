@@ -1,78 +1,35 @@
 package net.minodisk.util {
 	
-	/**
-	 * @langversion ActionScript 3.0
-	 * @playerversion 9.0
-	 * @author dsk
-	 * @since 2011/03/14
-	 */
 	public class StringUtil {
 		
-		//--------------------------------------
-		// CLASS CONSTANTS
-		//--------------------------------------
-		
-		
-		//--------------------------------------
-		// PRIVATE VARIABLES
-		//--------------------------------------
-		
-		
-		//--------------------------------------
-		// GETTER/SETTERS
-		//--------------------------------------
-		
-		
-		//--------------------------------------
-		// PUBLIC METHODS
-		//--------------------------------------
-		
-		public static function padLeft(value:Object, length:int, pad:String):String {
-			var string:String;
-			
-			string = value.toString();
-			while (string.length < length) {
-				string = pad + string;
+		static public function padLeft(value:*, length:int, pad:String):String {
+      var str:String = String(value);
+			while (str.length < length) {
+				str = pad + str;
 			}
-			
-			return string;
+			return str;
 		}
 		
-		public static function padRight(value:Object, length:int, pad:String):String {
-			var string:String;
-			
-			string = value.toString();
-			while (string.length < length) {
-				string += pad;
+		static public function padRight(value:*, length:int, pad:String):String {
+      var str:String = String(value);
+			while (str.length < length) {
+				str += pad;
 			}
-			
-			return string;
+			return str;
 		}
 		
-		public static function repeat(value:Object, length:int):String {
-			var string:String, buffer:String;
-			
-			string = value.toString();
-			buffer = '';
+		static public function repeat(value:Object, length:int):String {
+			var str:String = '';
 			while (length--) {
-				buffer += string;
+				str += value;
 			}
-			
-			return buffer;
+			return str;
 		}
 		
-		public static function optimizeForTextField(value:String):String {
-			
+		static public function optimizeForTextField(value:String):String {
 			return value.replace(/\t/g, '').replace(/\r\n/g, '\r');
 		}
 		
 		
-		//--------------------------------------
-		// PRIVATE METHODS
-		//--------------------------------------
-		
-		
 	}
-	
-	
 }
