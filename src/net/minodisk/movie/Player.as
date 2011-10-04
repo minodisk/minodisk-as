@@ -197,7 +197,7 @@ package net.minodisk.movie {
         _height = Number(info.height);
       }
       if (info.duration) {
-        _duration = Number(info.duration);
+        _duration = Number(info.duration) >> 0;
       }
       if (info.seekpoints) {
         _seekPoints = [];
@@ -304,7 +304,7 @@ package net.minodisk.movie {
     }
     
     private function _netStatus(e:NetStatusEvent):void {
-      if (e.info.code !== 'NetStream.Buffer.Flush') trace(e.info.code);
+      //if (e.info.code !== 'NetStream.Buffer.Flush') trace(e.info.code);
       
       if (e.info.code.indexOf('NetStream.Buffer') !== 0) { // Sometimes `NetStream.Buffer.*` is notified after `NetStream.Play.Stop`.
         _isPlayStop = e.info.code === 'NetStream.Play.Stop';

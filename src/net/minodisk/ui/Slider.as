@@ -34,16 +34,18 @@ package net.minodisk.ui {
     }
     
     public function set position(value:Number):void {
-      value = MathUtil.convergeBetween(value, 0, 1);
-      var bounds:Rectangle = _getBounds();
-      var position:Number;
-      switch (direction) {
-        case Direction.HORIZONTAL:
-          head.x = bounds.x + bounds.width * value;
-          break;
-        case Direction.VERTICAL:
-          head.y = bounds.y + bounds.height * value;
-          break;
+      if (!isNaN(value)) {
+        value = MathUtil.convergeBetween(value, 0, 1);
+        var bounds:Rectangle = _getBounds();
+        var position:Number;
+        switch (direction) {
+          case Direction.HORIZONTAL:
+            head.x = bounds.x + bounds.width * value;
+            break;
+          case Direction.VERTICAL:
+            head.y = bounds.y + bounds.height * value;
+            break;
+        }
       }
     }
     

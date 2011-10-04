@@ -5,7 +5,7 @@ package net.minodisk.display {
 	
   public class Loading extends Sprite {
     
-    public function Loading(length:int = 10) {
+    public function Loading(color:int = 0xffffff, length:int = 10) {
       super();
       
       mouseEnabled = mouseChildren = false;
@@ -15,7 +15,7 @@ package net.minodisk.display {
       var shape:Shape;
       while (i--) {
         shape = new Shape();
-        shape.graphics.beginFill(0xffffff, .2 + .6 / length * i);
+        shape.graphics.beginFill(color, .2 + .6 / length * i);
         shape.graphics.drawCircle(0, 12, 3);
         shape.graphics.endFill();
         shape.rotation = angle * i;
